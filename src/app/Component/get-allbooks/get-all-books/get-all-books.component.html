@@ -1,0 +1,70 @@
+<div fxLayout="row" fxLayoutAlign="space-between center" fxLayout.sm="row" fxLayout.xs="row">
+
+    <div class="bookandCount">
+        <span class="books">Books</span>
+        <span class="count"></span>
+        <!--we are just binding data using string interpolation between getallbooks.html and getaalbooks.ts -->
+    </div>
+  
+  </div>
+  
+  <div fxLayoutAlign="center center" fxLayout="row wrap" fxLayoutGap="15px">
+    <div class="entirebook"
+    
+        fxLayout.sm="column">
+  
+        <div class="bookimg">
+            <!-- this (book) is coming from ngFor (let book) as we are storing aur bookname, author etc in book -->
+            <img class="img1" src="../../../assets/Image 11@2x.png" alt="">
+        </div>
+  
+        <div class="bookname">
+            bookname
+        </div>
+        <div class="author">
+            authorname
+        </div>
+        <div class="rating" fxLayoutAlign="space-evenly center">
+            4.5<img class="Star" src="../../../assets/star_outline_white_24dp.svg" alt="">
+        </div>
+  
+        <div class="quantity">
+            bookCount
+        </div>
+  
+        <div class="price" fxLayout="row">
+            <div class="discountprice">
+                Rs.200
+            </div>
+            <div class="originalprice">
+                <del> Rs.500 </del> <!-- <del> tag is used to show the removal from document-->
+            </div>
+        </div>
+  
+        <div class="cartandwishlistbutton" fxLayout="row" fxLayoutGap="5px" fxLayoutAlign="space-evenly center">
+            
+                <div >
+  
+                    <button class="addtobag"  >
+                        <img class="cartimg" src="../../../assets/shopping_cart_black_24dp.svg" alt="">
+                    </button>
+                </div>
+                
+            <div  fxLayout="row" fxLayoutAlign="start center">
+                <button mat-raised-button class="addedtobag">
+                    ADDED TO BAG
+                </button>
+            </div>
+  
+                <div  fxLayout="row" fxLayoutAlign="start center">
+  
+                    <button class="wishlist" >
+                        <mat-icon class="wishlistIcon">favorite</mat-icon>
+                    </button>
+                </div>
+        </div>
+  
+    </div>
+  
+  </div>
+ 

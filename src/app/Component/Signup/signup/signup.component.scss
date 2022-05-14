@@ -1,0 +1,126 @@
+.section{
+    background-color: grey;
+    width: 100%;
+    height: 100%;
+}
+.section-xs{
+    background-color: white;
+}
+.matcard1{
+    background-color:#F5F5F5;
+    // margin-top: 200px; 
+    // margin-right: -20px;
+    height: auto; 
+    width: 330px;
+    border-radius: 25px;
+    // padding-bottom: 10px; 
+    display: flex; 
+    // position: relative;
+    top: 25%;
+    left: 20%; 
+}
+.img1{
+    height: 230px;
+    width: 230px;
+    border-radius: 130px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.text{
+    font-size: 14px;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0px;
+    color: #0A0102;
+    font-weight: 500;
+    opacity: 1;
+    height: 60px;
+    width: 240px;
+    margin-top: 310px;
+    margin-right: 40px;
+    display: flex;
+    position: relative;
+    right: 190px;
+   
+}
+
+.matcard2{
+    background-color:#F5F5F5;
+    // background-color:#F5F5F5;
+    margin-top: 40px; 
+    // margin-right: -20px;
+    height: 510px; 
+    width: 340px;
+    // padding-bottom: 10px; 
+    display: flex; 
+    position: relative;
+    top: -45%; 
+    left: 43%;
+    right: 3%;
+}
+
+.login{
+   
+    margin-top: 15px;
+    margin-bottom: 480px;
+    position: relative;
+    left: 50px;
+    font-family: Roboto, sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: #878787;
+    cursor: pointer;
+
+}
+.signup{
+    
+    margin-top: 15px;
+    margin-bottom: 480px;
+    display: flex;
+    position: relative;
+    left: 200px;
+    bottom: 500px; 
+    font-family: Roboto, sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: #878787;
+    cursor: pointer;
+
+}
+
+.form{
+    
+    position: relative;
+    right: 34%;
+    top: 12%;
+    width: 100%;
+    align-items: center;
+    margin-left: 70px;
+}
+.fullname{
+  
+     height: 10%;
+     
+   
+}
+.mat-form-field{
+    // margin-left: 40px;
+    
+    align-items: center;
+    width: 250px;
+}
+.password{
+   
+    height: 10%;
+}
+.number{
+   
+    height: 18%;
+}
+.signupbutton{
+    width: 250px;
+    background-color: brown;
+    color: white;
+    position: relative;
+    
+
+}
